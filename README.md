@@ -1,1 +1,31 @@
-# forgottenplaces
+# Forgotten Places
+
+A browser-only CoolCode atlas of federal historic places drawn from the Canadian Register of Historic Places. Explore the country by province or territory, narrow by locality and designation, search English and French place names, or start with a theme such as defence installations, mills and mines, or historic settlements. Open a record for its description, heritage value, character-defining elements, and original government links.
+
+The **atlas uses the federal-designation extract**, not a complete list of Canadian heritage sites. The map groups records by their province or territory. The workbook has no coordinates, so the map shows regional distributions and never guesses an individual site's location. A record's map-search link uses the address or locality reported by the register.
+
+Themes describe wording in the archive. They include evidence such as “company town,” “military,” and “archaeological remains.” A theme match does not establish present-day abandonment, physical condition, ownership, or permission to visit.
+
+## Run locally
+
+```sh
+python3 -m pip install -r requirements.txt
+python3 scripts/build.py
+python3 -m http.server 8080 --bind 127.0.0.1 --directory dist
+```
+
+Open [http://127.0.0.1:8080](http://127.0.0.1:8080). Use `--input /path/to/crhp.xlsx` to develop with a local copy of the official workbook. A modern browser supporting the gzip DecompressionStream API loads the generated search index and individual record detail bundles. Search and filtering run in the browser with no API, framework, or mapping service dependency.
+
+## Deploy and refresh
+
+GitHub Actions reads the Open Government catalogue, downloads the official XLSX, and builds and deploys `dist/` to GitHub Pages. The workflow supports daily refreshes and manual runs. A failed download or invalid workbook fails the build before deployment, preserving the previous published site. The built site's Source notes show the extract date, resource update, build date, and record count. `data/manifest.json` also records the exact source URL and SHA-256.
+
+Use **Settings → Pages → GitHub Actions** as the publishing source. The project inherits the custom domain of `jsdyer/jsdyer.github.io` and uses relative assets under [coolcode.ca/forgottenplaces/](https://coolcode.ca/forgottenplaces/).
+
+## Sources and licence
+
+- [Canadian Register of Historic Places (CRHP)](https://open.canada.ca/data/en/dataset/e9385d68-ce65-46fa-a9fc-1b1f377f3f5d), Parks Canada. The official catalogue identifies the federal snapshot as extracted December 12, 2025. The downloadable workbook was published July 8, 2026. One duplicate place ID in the supplied snapshot is represented by its most complete row (2,527 unique entries from 2,528 rows).
+- [Official workbook resource](https://open.canada.ca/data/en/dataset/e9385d68-ce65-46fa-a9fc-1b1f377f3f5d/resource/7e691189-5c74-4fb4-866c-5389d5abfa48), a bilingual XLSX. Source links are keyed on its `PLACE_ID`. `MAIN_FPT_ID` is a different identifier.
+- [Directory of Federal Heritage Designations](https://www.parks.canada.ca/culture/adpf-dfhd), the current federal authority. The CRHP archive is no longer actively maintained.
+- Contains information licensed under the [Open Government Licence – Canada](https://open.canada.ca/en/open-government-licence-canada).
+- Map made with [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), public-domain base geography. The shapes use a generalized projection and are intended for browsing the archive.

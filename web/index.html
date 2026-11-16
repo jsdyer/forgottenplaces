@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17201c">
+  <meta name="description" content="Explore Canada's federal heritage places through the Canadian Register of Historic Places.">
+  <title>Forgotten Places · CoolCode</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a href="#explorer" class="skip-link">Skip to search</a>
+  <header class="topbar">
+    <div class="wrap top-inner">
+      <a class="brand" href="https://coolcode.ca/">Cool<span>Code</span><small>.ca</small></a>
+      <div class="project-name">Forgotten Places</div>
+      <a class="source-link" href="#about">About the data ↓</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">CANADIAN HERITAGE ATLAS</p>
+          <h1>Forgotten<br>Places<span>.</span></h1>
+          <p>Explore the stories behind abandoned settlements, coastal batteries, old mills and thousands of other places in Canada's historic register.</p>
+          <a class="button light" href="#explorer">Explore the atlas <span aria-hidden="true">↓</span></a>
+        </div>
+        <aside class="map-card" aria-labelledby="map-heading">
+          <div class="map-top">
+            <div><p class="eyebrow">GEOGRAPHIC INDEX</p><h2 id="map-heading">Explore by region</h2></div>
+            <button id="map-reset" class="map-button" type="button" hidden>All Canada</button>
+          </div>
+          <svg id="map" role="group" aria-labelledby="map-heading" viewBox="0 0 720 400"></svg>
+          <p id="map-note">Choose a province or territory to filter the records.</p>
+        </aside>
+      </div>
+    </section>
+    <div class="wrap workspace" id="explorer">
+      <section class="panel query-panel" aria-label="Search the atlas">
+        <form role="search" id="search-form">
+          <label for="query">Search the register</label>
+          <div class="search-row">
+            <input id="query" type="search" placeholder="Try company town, Halifax, or Diefenbunker" autocomplete="off" spellcheck="false">
+            <button class="button quiet" type="button" id="reset" hidden>Clear search</button>
+          </div>
+        </form>
+        <div class="themes">
+          <span class="field-label">Discover a theme</span>
+          <div id="themes" class="chips" aria-label="Research themes"></div>
+        </div>
+        <div class="filters">
+          <label>Province or territory <select id="province"><option value="">All regions</option></select></label>
+          <label>Locality <select id="locality" disabled><option value="">Choose a region first</option></select></label>
+          <label>Designation <select id="designation"><option value="">All designations</option></select></label>
+          <label>Sort <select id="sort"><option value="relevance">Best match</option><option value="name">Name A–Z</option><option value="old">Oldest designation</option><option value="new">Newest designation</option></select></label>
+        </div>
+        <p class="help" id="theme-description">Themes come from the wording of the record. A designation alone says nothing about current condition or access.</p>
+      </section>
+      <div class="results-grid">
+        <section aria-labelledby="results-heading">
+          <header class="results-header">
+            <div><h2 id="results-heading" tabindex="-1">Register entries</h2><p id="count" role="status">Loading the historic places snapshot…</p></div>
+            <button id="surprise" type="button" class="button quiet" disabled>Surprise me <span aria-hidden="true">↗</span></button>
+          </header>
+          <div id="records"></div>
+          <nav id="pages" aria-label="Results pages" hidden>
+            <button id="prev" type="button" class="button quiet">← Previous</button>
+            <span id="page-number"></span>
+            <button id="next" type="button" class="button quiet">Next →</button>
+          </nav>
+        </section>
+        <aside class="sidebar">
+          <section class="panel features">
+            <p class="eyebrow">CURATED DISCOVERIES</p>
+            <h2>Start with a story</h2>
+            <div id="features"></div>
+          </section>
+          <section class="panel data-card" id="about">
+            <p class="eyebrow">SOURCE NOTES</p>
+            <h2>About the register</h2>
+            <p>The Parks Canada extract covers federal heritage designations. The broader historical register also included provincial, territorial and municipal listings.</p>
+            <p>The register is archived. Confirm a place's current condition, designation and public access with the responsible authority.</p>
+            <dl id="data-details"></dl>
+            <a href="https://open.canada.ca/data/en/dataset/e9385d68-ce65-46fa-a9fc-1b1f377f3f5d" target="_blank" rel="noopener noreferrer">Official dataset ↗</a>
+            <a href="https://www.parks.canada.ca/culture/adpf-dfhd" target="_blank" rel="noopener noreferrer">Current federal directory ↗</a>
+          </section>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <strong>Forgotten Places · CoolCode</strong>
+      <p>Contains information licensed under the <a href="https://open.canada.ca/en/open-government-licence-canada">Open Government Licence – Canada</a>. Source: Parks Canada. Map made with <a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth</a>.</p>
+      <a href="https://github.com/jsdyer/forgottenplaces">Source code ↗</a>
+    </div>
+  </footer>
+  <dialog id="details" aria-labelledby="detail-title">
+    <div class="dialog-top">
+      <p class="eyebrow" id="detail-id"></p>
+      <form method="dialog"><button class="button quiet" aria-label="Close record">Close ×</button></form>
+    </div>
+    <h2 id="detail-title"></h2>
+    <p id="detail-context"></p>
+    <div id="detail-actions"></div>
+    <div id="detail-body"></div>
+  </dialog>
+  <noscript><p class="wrap">JavaScript is required to search the atlas. <a href="https://open.canada.ca/data/en/dataset/e9385d68-ce65-46fa-a9fc-1b1f377f3f5d">Browse the official Parks Canada dataset.</a></p></noscript>
+</body>
+</html>
