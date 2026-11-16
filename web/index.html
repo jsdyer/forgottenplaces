@@ -8,6 +8,7 @@
   <title>Forgotten Places · CoolCode</title>
   <link rel="stylesheet" href="./style.css">
   <script type="module" src="./app.js"></script>
+  <script type="module" src="./nearby.mjs"></script>
 </head>
 <body>
   <a href="#explorer" class="skip-link">Skip to search</a>
@@ -25,7 +26,8 @@
           <p class="eyebrow">CANADIAN HERITAGE ATLAS</p>
           <h1>Forgotten<br>Places<span>.</span></h1>
           <p>Explore the stories behind abandoned settlements, coastal batteries, old mills and thousands of other places in Canada's historic register.</p>
-          <a class="button light" href="#explorer">Explore the atlas <span aria-hidden="true">↓</span></a>
+          <div class="hero-actions"><a class="button light" href="#explorer">Explore the atlas <span aria-hidden="true">↓</span></a>
+          <a class="button light" href="#nearby">Find nearby sites and wrecks <span aria-hidden="true">↓</span></a></div>
         </div>
         <aside class="map-card" aria-labelledby="map-heading">
           <div class="map-top">
@@ -88,6 +90,47 @@
           </section>
         </aside>
       </div>
+      <section class="panel nearby" id="nearby" aria-labelledby="nearby-heading">
+        <h2 id="nearby-heading">Explore nearby shipwrecks and historic places</h2>
+        <p>Search by straight-line distance from a coastal town or coordinates. Historic places use published location points. Wreck positions are approximate.</p>
+        <form id="nearby-form" class="nearby-form">
+          <label>Starting point<select id="nearby-preset">
+            <option value="">Custom coordinates</option>
+            <option value="44.6488,-63.5752" selected>Halifax Harbour</option>
+            <option value="44.377,-64.312">Lunenburg</option>
+            <option value="44.4458,-63.7136">Peggy’s Cove</option>
+            <option value="45.893,-59.987">Louisbourg</option>
+            <option value="43.836,-66.116">Yarmouth</option>
+            <option value="43.937,-59.913">Sable Island</option>
+          </select></label>
+          <label>Latitude<input id="nearby-lat" type="number" min="-90" max="90" step="any" required value="44.6488"></label>
+          <label>Longitude<input id="nearby-lon" type="number" min="-180" max="180" step="any" required value="-63.5752"></label>
+          <label>Radius (km)<input id="nearby-km" type="number" min="1" max="250" step="any" required value="25"></label>
+          <button class="button quiet" type="submit">Find nearby records</button>
+        </form>
+        <p id="nearby-status" role="status"></p>
+        <div id="nearby-results" hidden>
+          <div class="nearby-layout">
+            <div class="nearby-map">
+              <canvas id="nearby-map" width="400" height="400" aria-label="Map of matching points around the chosen centre. The same records are available in the results list."></canvas>
+              <p class="nearby-legend"><span class="nearby-places">◆ Historic places</span> <span class="nearby-wrecks">● Wrecks</span> <span>+ Centre</span></p>
+              <p id="nearby-focus" role="status">Select a record to locate it within the radius.</p>
+            </div>
+            <div>
+              <label class="nearby-view">Show <select id="nearby-kind">
+                <option value="">Both datasets</option><option value="place">Historic places</option><option value="wreck">Shipwrecks</option>
+              </select></label>
+              <ol id="nearby-list"></ol>
+              <nav class="nearby-pages" id="nearby-pages" aria-label="Pages of nearby records" hidden>
+                <button class="button quiet" id="nearby-prev" type="button">Previous</button>
+                <span id="nearby-page"></span>
+                <button class="button quiet" id="nearby-next" type="button">Next</button>
+              </nav>
+            </div>
+          </div>
+          <div id="nearby-coverage" class="nearby-coverage"></div>
+        </div>
+      </section>
     </div>
   </main>
   <footer class="footer">

@@ -16,6 +16,8 @@ from urllib.request import Request, urlopen
 
 from openpyxl import load_workbook
 
+from nearby import write_nearby
+
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = "e9385d68-ce65-46fa-a9fc-1b1f377f3f5d"
@@ -218,6 +220,7 @@ def build(path, provenance, output):
             for record in group:
                 record["shard"] = shard
         zip_json(data / "places.json.gz", records)
+        write_nearby(data, records, details, provenance)
         metadata = {
             **provenance, "publisher": "Parks Canada", "catalogUrl": CATALOG, "licenceUrl": LICENSE,
             "sourceSha256": hashlib.sha256(path.read_bytes()).hexdigest(),

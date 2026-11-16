@@ -29,3 +29,11 @@ Use **Settings → Pages → GitHub Actions** as the publishing source. The proj
 - [Directory of Federal Heritage Designations](https://www.parks.canada.ca/culture/adpf-dfhd), the current federal authority. The CRHP archive is no longer actively maintained.
 - Contains information licensed under the [Open Government Licence – Canada](https://open.canada.ca/en/open-government-licence-canada).
 - Map made with [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), public-domain base geography. The shapes use a generalized projection and are intended for browsing the archive.
+
+## Nearby coastal history
+
+**Find nearby sites and wrecks** compares both archives in one radius, ordered by straight-line distance. Use a Nova Scotia preset, enter coordinates, or start with a plotted vessel in [Shipwreck Explorer](https://coolcode.ca/shipwrecks/). The location is included in the page URL. Each result shows the available wreck or designation date and links to its official record.
+
+The register workbook lacks coordinates. The builder matches unique National Historic Site names and provinces with the published [National historic sites map](https://parks.canada.ca/lhn-nhs?wbdisable=true) from Parks Canada. The match strips the common designation suffix and normalizes punctuation and accents. Ambiguous names and unmatched sites stay in the main register without entering the radius index. The tested snapshot matches 126 of 2,527 entries. The coordinate data in `scripts/parks-map-points.json` is copied from the Parks Canada map and follows the site's [terms](https://parks.canada.ca/termes-terms). To review and refresh that source copy, run `python3 scripts/nearby.py`.
+
+The radius explorer also reads the compact, same-origin index published by Shipwreck Explorer. Provincial wreck positions are approximate and have separate source attribution. Serve both built sites at `/forgottenplaces/` and `/shipwrecks/` for end-to-end local testing.

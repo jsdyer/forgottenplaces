@@ -132,3 +132,32 @@ dd { margin: 0 0 6px; }
   .results-header { align-items: start; flex-direction: column; }
   .search-row { flex-wrap: wrap; }
 }
+
+.hero-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.nearby { padding: 1rem clamp(1rem, 3vw, 1.65rem); margin: 1rem 0; scroll-margin-top: 1rem; }
+.nearby > p { color: var(--muted); margin-top: .45rem; }
+.nearby-form { display: flex; flex-wrap: wrap; align-items: end; gap: .55rem .7rem; margin-top: .85rem; }
+.nearby-form label, .nearby-view { font-size: .83rem; font-weight: 650; }
+.nearby-form input, .nearby-form select, .nearby-view select { background: var(--paper); border: 1px solid var(--line); border-radius: 5px; padding: .43rem .5rem; }
+.nearby-form input, .nearby-form select { display: block; margin-top: .19rem; }
+.nearby-form input { width: 8rem; }
+#nearby-status { min-height: 1.45em; font-weight: 650; }
+.nearby-layout { display: grid; grid-template-columns: minmax(220px, .8fr) minmax(0, 1.2fr); gap: 1rem; margin-top: .75rem; }
+.nearby-map { min-width: 0; }
+#nearby-map { display: block; width: 100%; height: auto; border-radius: 6px; background: #172923; }
+.nearby-legend { display: flex; flex-wrap: wrap; gap: .3rem .85rem; font-size: .82rem; margin-top: .42rem; }
+.nearby-places { color: #435c15; }
+.nearby-wrecks { color: #136179; }
+#nearby-focus, .nearby-coverage { color: var(--muted); font-size: .8rem; }
+.nearby-coverage { margin-top: .7rem; }
+.nearby-coverage p + p { margin-top: .2rem; }
+#nearby-list { display: grid; gap: .42rem; margin: .6rem 0; padding: 0; list-style: none; }
+#nearby-list li { border: 1px solid var(--line); border-radius: 5px; padding: .54rem .62rem; }
+#nearby-list a { font-weight: 660; }
+#nearby-list p { color: var(--muted); font-size: .8rem; }
+.nearby-record-actions, .nearby-pages { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .8rem; font-size: .77rem; margin-top: .22rem; }
+.nearby-record-actions button { border: 0; padding: 0; background: none; color: #324d20; text-decoration: underline; }
+@media (max-width: 640px) {
+  .nearby-layout { grid-template-columns: minmax(0, 1fr); }
+  #nearby-map { max-width: 350px; }
+}

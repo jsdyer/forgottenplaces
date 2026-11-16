@@ -1,0 +1,1247 @@
+{
+  "modified": "2026-11-05",
+  "points": [
+    [
+      "57-63 St. Louis Street National Historic Site",
+      "QC",
+      [
+        -71.2112026,
+        46.8109917
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/fortifications/culture/architecture/57-63b"
+    ],
+    [
+      "Alexander Graham Bell National Historic Site",
+      "NS",
+      [
+        -60.74645,
+        46.10343
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/grahambell"
+    ],
+    [
+      "Ardgowan National Historic Site",
+      "PE",
+      [
+        -63.126329,
+        46.251826
+      ],
+      "https://parks.canada.ca/lhn-nhs/pe/ardgowan"
+    ],
+    [
+      "Athabasca Pass National Historic Site",
+      "AB",
+      [
+        -118.185948,
+        52.380719
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/athabasca"
+    ],
+    [
+      "Banff Park Museum National Historic Site",
+      "AB",
+      [
+        -115.571671,
+        51.173769
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/banff"
+    ],
+    [
+      "Bar U Ranch National Historic Site",
+      "AB",
+      [
+        -114.245099,
+        50.422812
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/baru"
+    ],
+    [
+      "Batoche National Historic Site",
+      "SK",
+      [
+        -106.111193,
+        52.753665
+      ],
+      "https://parks.canada.ca/lhn-nhs/sk/batoche"
+    ],
+    [
+      "Battle Hill National Historic Site",
+      "ON",
+      [
+        -81.70565,
+        42.694133
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/battlehill"
+    ],
+    [
+      "Battle of Cook's Mills National Historic Site",
+      "ON",
+      [
+        -79.1749,
+        42.997917
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/cooksmills"
+    ],
+    [
+      "Battle of Restigouche National Historic Site",
+      "QC",
+      [
+        -66.735395,
+        48.013427
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/ristigouche"
+    ],
+    [
+      "Battle of Tourond's Coulee / Fish Creek National Historic Site",
+      "SK",
+      [
+        -106.152659,
+        52.53901
+      ],
+      "https://parks.canada.ca/lhn-nhs/sk/tourond"
+    ],
+    [
+      "Battle of the Châteauguay National Historic Site",
+      "QC",
+      [
+        -73.928586,
+        45.158851
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/chateauguay"
+    ],
+    [
+      "Battle of the Windmill National Historic Site",
+      "ON",
+      [
+        -75.487364,
+        44.721236
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/windmill"
+    ],
+    [
+      "Beaubassin and Fort Lawrence National Historic Sites",
+      "NS",
+      [
+        -64.261052,
+        45.847286
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/beaubassin"
+    ],
+    [
+      "Beausoleil Island National Historic Site",
+      "ON",
+      [
+        -79.8694,
+        44.8726
+      ],
+      "https://parks.canada.ca/pn-np/on/georg/info/beausoleil"
+    ],
+    [
+      "Bellevue House National Historic Site",
+      "ON",
+      [
+        -76.504333,
+        44.22285
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/bellevue"
+    ],
+    [
+      "Bethune Memorial House National Historic Site",
+      "ON",
+      [
+        -79.37615,
+        44.920933
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/bethune"
+    ],
+    [
+      "Bloody Creek National Historic Site",
+      "NS",
+      [
+        -65.30972,
+        44.82222
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/bloodycreek"
+    ],
+    [
+      "Boishébert and Beaubears Island Shipbuilding National Historic Sites",
+      "NB",
+      [
+        -65.562429,
+        46.977393
+      ],
+      "https://parks.canada.ca/lhn-nhs/nb/boishebert"
+    ],
+    [
+      "Canso Islands National Historic Site",
+      "NS",
+      [
+        -60.970702,
+        45.346563
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/canso"
+    ],
+    [
+      "Cape Spear Lighthouse National Historic Site",
+      "NL",
+      [
+        -52.62332,
+        47.519922
+      ],
+      "https://parks.canada.ca/lhn-nhs/nl/spear"
+    ],
+    [
+      "Carillon Barracks National Historic Site",
+      "QC",
+      [
+        -74.371897,
+        45.564978
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/carillon"
+    ],
+    [
+      "Carillon Canal National Historic Site",
+      "QC",
+      [
+        -74.375634,
+        45.567508
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/canalcarillon"
+    ],
+    [
+      "Carleton Martello Tower National Historic Site",
+      "NB",
+      [
+        -66.076583,
+        45.252063
+      ],
+      "https://parks.canada.ca/lhn-nhs/nb/carleton"
+    ],
+    [
+      "Carrying Place of the Bay of Quinte National Historic Site",
+      "ON",
+      [
+        -77.581817,
+        44.048686
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/carryingplace"
+    ],
+    [
+      "Cartier-Brébeuf National Historic Site",
+      "QC",
+      [
+        -71.239584,
+        46.825454
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/cartierbrebeuf"
+    ],
+    [
+      "Castle Hill National Historic Site",
+      "NL",
+      [
+        -53.97154,
+        47.25098
+      ],
+      "https://parks.canada.ca/lhn-nhs/nl/castlehill"
+    ],
+    [
+      "Cave and Basin National Historic Site",
+      "AB",
+      [
+        -115.590794,
+        51.169388
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/caveandbasin"
+    ],
+    [
+      "Chambly Canal National Historic Site",
+      "QC",
+      [
+        -73.283258,
+        45.446911
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/chambly"
+    ],
+    [
+      "Charles Fort National Historic Site",
+      "NS",
+      [
+        -65.520246,
+        44.740812
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/charles"
+    ],
+    [
+      "Chilkoot Trail National Historic Site",
+      "YT",
+      [
+        -135.110395,
+        59.767291
+      ],
+      "https://parks.canada.ca/lhn-nhs/yt/chilkoot"
+    ],
+    [
+      "Coteau-du-Lac National Historic Site",
+      "QC",
+      [
+        -74.177615,
+        45.287624
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/coteaudulac"
+    ],
+    [
+      "Dalvay-by-the-Sea National Historic Site",
+      "PE",
+      [
+        -63.377296,
+        46.414762
+      ],
+      "https://parks.canada.ca/lhn-nhs/pe/dalvay"
+    ],
+    [
+      "D’Anville’s Encampment National Historic Site",
+      "NS",
+      [
+        -63.646611,
+        44.674692
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/anville"
+    ],
+    [
+      "First Oil Well in Western Canada National Historic Site",
+      "AB",
+      [
+        -113.986759,
+        49.070984
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/puits-well"
+    ],
+    [
+      "Fisgard Lighthouse National Historic Site",
+      "BC",
+      [
+        -123.447934,
+        48.430429
+      ],
+      "https://parks.canada.ca/lhn-nhs/bc/fortroddhill"
+    ],
+    [
+      "Forges du Saint-Maurice National Historic Site",
+      "QC",
+      [
+        -72.657947,
+        46.398493
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/saintmaurice"
+    ],
+    [
+      "Fort Anne National Historic Site",
+      "NS",
+      [
+        -65.518724,
+        44.741533
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/fortanne"
+    ],
+    [
+      "Fort Battleford National Historic Site",
+      "SK",
+      [
+        -108.29514,
+        52.72671
+      ],
+      "https://parks.canada.ca/lhn-nhs/sk/battleford"
+    ],
+    [
+      "Fort Beauséjour – Fort Cumberland National Historic Site",
+      "NB",
+      [
+        -64.292126,
+        45.863618
+      ],
+      "https://parks.canada.ca/lhn-nhs/nb/beausejour"
+    ],
+    [
+      "Fort Chambly National Historic Site",
+      "QC",
+      [
+        -73.276879,
+        45.449445
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/fortchambly"
+    ],
+    [
+      "Fort Edward National Historic Site",
+      "NS",
+      [
+        -64.134978,
+        44.996456
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/edward"
+    ],
+    [
+      "Fort Espérance National Historic Site",
+      "SK",
+      [
+        -101.577484,
+        50.492263
+      ],
+      "https://parks.canada.ca/lhn-nhs/sk/esperance"
+    ],
+    [
+      "Fort Gaspareaux National Historic Site",
+      "NB",
+      [
+        -64.070743,
+        46.043211
+      ],
+      "https://parks.canada.ca/lhn-nhs/nb/gaspareaux"
+    ],
+    [
+      "Fort George National Historic Site",
+      "ON",
+      [
+        -79.063117,
+        43.251933
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/fortgeorge"
+    ],
+    [
+      "Fort Langley National Historic Site",
+      "BC",
+      [
+        -122.573067,
+        49.168833
+      ],
+      "https://parks.canada.ca/lhn-nhs/bc/langley"
+    ],
+    [
+      "Fort Lennox National Historic Site",
+      "QC",
+      [
+        -73.267721,
+        45.120657
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/lennox"
+    ],
+    [
+      "Fort Livingstone National Historic Site",
+      "SK",
+      [
+        -101.95749,
+        51.90371
+      ],
+      "https://parks.canada.ca/lhn-nhs/sk/livingstone"
+    ],
+    [
+      "Fort Malden National Historic Site",
+      "ON",
+      [
+        -83.112417,
+        42.1079
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/malden"
+    ],
+    [
+      "Fort McNab National Historic Site",
+      "NS",
+      [
+        -63.51533,
+        44.60008
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/mcnab"
+    ],
+    [
+      "Fort Pelly National Historic Site",
+      "SK",
+      [
+        -101.99885,
+        51.77659
+      ],
+      "https://parks.canada.ca/lhn-nhs/sk/pelly"
+    ],
+    [
+      "Fort Rodd Hill National Historic Site",
+      "BC",
+      [
+        -123.447934,
+        48.430429
+      ],
+      "https://parks.canada.ca/lhn-nhs/bc/fortroddhill"
+    ],
+    [
+      "Fort Sainte Marie de Grace National Historic Site",
+      "NS",
+      [
+        -64.351658,
+        44.288195
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/saintemarie"
+    ],
+    [
+      "Fort St. James National Historic Site",
+      "BC",
+      [
+        -124.255602355581,
+        54.4395351465807
+      ],
+      "https://parks.canada.ca/lhn-nhs/bc/stjames"
+    ],
+    [
+      "Fort St. Joseph National Historic Site",
+      "ON",
+      [
+        -83.9475307,
+        46.0648557
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/stjoseph"
+    ],
+    [
+      "Fort Walsh National Historic Site",
+      "SK",
+      [
+        -109.881435,
+        49.572802
+      ],
+      "https://parks.canada.ca/lhn-nhs/sk/walsh"
+    ],
+    [
+      "Fort Wellington National Historic Site",
+      "ON",
+      [
+        -75.508607,
+        44.713266
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/wellington"
+    ],
+    [
+      "Fortifications of Québec National Historic Site",
+      "QC",
+      [
+        -71.213471,
+        46.813603
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/fortifications"
+    ],
+    [
+      "Fortress of Louisbourg National Historic Site",
+      "NS",
+      [
+        -59.986811,
+        45.892841
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/louisbourg"
+    ],
+    [
+      "Frenchman Butte National Historic Site",
+      "SK",
+      [
+        -109.57372,
+        53.62775
+      ],
+      "https://parks.canada.ca/lhn-nhs/sk/frenchman"
+    ],
+    [
+      "Frog Lake National Historic Site",
+      "AB",
+      [
+        -110.358618,
+        53.831229
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/froglake"
+    ],
+    [
+      "Georges Island National Historic Site",
+      "NS",
+      [
+        -63.559302,
+        44.641314
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/georges"
+    ],
+    [
+      "Gitwangak Battle Hill National Historic Site",
+      "BC",
+      [
+        -128.015056,
+        55.120389
+      ],
+      "https://parks.canada.ca/lhn-nhs/bc/gitwangak"
+    ],
+    [
+      "Grand-Pré National Historic Site",
+      "NS",
+      [
+        -64.311792,
+        45.108775
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/grandpre"
+    ],
+    [
+      "Green Gables Heritage Place",
+      "PE",
+      [
+        -63.377296,
+        46.489296
+      ],
+      "https://parks.canada.ca/lhn-nhs/pe/greengables"
+    ],
+    [
+      "Grosse Île and the Irish Memorial National Historic Site",
+      "QC",
+      [
+        -70.672328,
+        47.020616
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/grosseile"
+    ],
+    [
+      "Gulf of Georgia Cannery National Historic Site",
+      "BC",
+      [
+        -123.18655,
+        49.124967
+      ],
+      "https://parks.canada.ca/lhn-nhs/bc/georgia"
+    ],
+    [
+      "HMCS Haida National Historic Site",
+      "ON",
+      [
+        -79.85535,
+        43.275298
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/haida"
+    ],
+    [
+      "Halifax Citadel National Historic Site",
+      "NS",
+      [
+        -63.580392,
+        44.647308
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/halifax"
+    ],
+    [
+      "Hawthorne Cottage National Historic Site",
+      "NL",
+      [
+        -53.209958,
+        47.535158
+      ],
+      "https://parks.canada.ca/lhn-nhs/nl/hawthorne"
+    ],
+    [
+      "Hopedale Mission National Historic Site",
+      "NL",
+      [
+        -60.2191337,
+        55.461482
+      ],
+      "https://parks.canada.ca/lhn-nhs/nl/hopedalemission"
+    ],
+    [
+      "Inverarden House National Historic Site",
+      "ON",
+      [
+        -74.671016,
+        45.031266
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/inverarden"
+    ],
+    [
+      "Jasper House National Historic Site",
+      "AB",
+      [
+        -117.977012,
+        53.145883
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/jasperhouse"
+    ],
+    [
+      "Jasper Park Information Centre National Historic Site",
+      "AB",
+      [
+        -118.080772,
+        52.877293
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/jasperinformation"
+    ],
+    [
+      "Kicking Horse Pass National Historic Site",
+      "BC",
+      [
+        -116.387388,
+        51.435795
+      ],
+      "https://parks.canada.ca/pn-np/bc/yoho/culture/kickinghorse"
+    ],
+    [
+      "Kingston Fortifications National Historic Site",
+      "ON",
+      [
+        -76.459676,
+        44.230971
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/kingston"
+    ],
+    [
+      "Klondike National Historic Sites",
+      "YT",
+      [
+        -139.4305671,
+        64.0627397
+      ],
+      "https://parks.canada.ca/lhn-nhs/yt/klondike"
+    ],
+    [
+      "Kootenae House National Historic Site",
+      "BC",
+      [
+        -116.045623,
+        50.526654
+      ],
+      "https://parks.canada.ca/pn-np/bc/kootenay/culture/kootenae"
+    ],
+    [
+      "L'Anse aux Meadows National Historic Site",
+      "NL",
+      [
+        -55.5330555,
+        51.5952777
+      ],
+      "https://parks.canada.ca/lhn-nhs/nl/meadows"
+    ],
+    [
+      "Lachine Canal National Historic Site",
+      "QC",
+      [
+        -73.55179,
+        45.499022
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/canallachine"
+    ],
+    [
+      "Laurier House National Historic Site",
+      "ON",
+      [
+        -75.677976,
+        45.427759
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/laurier"
+    ],
+    [
+      "Louis S. St-Laurent National Historic Site",
+      "QC",
+      [
+        -71.826126,
+        45.242191
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/stlaurent"
+    ],
+    [
+      "Louis-Joseph Papineau National Historic Site",
+      "QC",
+      [
+        -73.551725,
+        45.509875
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/louisjosephpapineau"
+    ],
+    [
+      "Lower Fort Garry National Historic Site",
+      "MB",
+      [
+        -96.935293,
+        50.109699
+      ],
+      "https://parks.canada.ca/lhn-nhs/mb/fortgarry"
+    ],
+    [
+      "Lévis Forts National Historic Site",
+      "QC",
+      [
+        -71.1586778,
+        46.8153123
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/levis"
+    ],
+    [
+      "Maligne Lake Chalet and Guest House National Historic Site",
+      "AB",
+      [
+        -117.6426,
+        52.72898
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/maligne"
+    ],
+    [
+      "Manoir Papineau National Historic Site",
+      "QC",
+      [
+        -74.943472,
+        45.649864
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/manoirpapineau"
+    ],
+    [
+      "Marconi National Historic Site",
+      "NS",
+      [
+        -59.952577,
+        46.21105
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/marconi"
+    ],
+    [
+      "Melanson Settlement National Historic Site",
+      "NS",
+      [
+        -65.596098,
+        44.719092
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/melanson"
+    ],
+    [
+      "Merrickville Blockhouse National Historic Site",
+      "ON",
+      [
+        -75.837373,
+        44.916496
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/rideau/histoire-history/merrickvilleblockhouse"
+    ],
+    [
+      "Mnjikaning Fish Weirs National Historic Site",
+      "ON",
+      [
+        -79.369236,
+        44.603862
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/mnjikaning"
+    ],
+    [
+      "Monument Lefebvre National Historic Site",
+      "NB",
+      [
+        -64.567103,
+        45.97925
+      ],
+      "https://parks.canada.ca/lhn-nhs/nb/lefebvre"
+    ],
+    [
+      "Motherwell Homestead National Historic Site",
+      "SK",
+      [
+        -103.4244,
+        50.71892
+      ],
+      "https://parks.canada.ca/lhn-nhs/sk/motherwell"
+    ],
+    [
+      "Obadjiwan–Fort Témiscamingue National Historic Site",
+      "QC",
+      [
+        -79.455448,
+        47.290331
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/obadjiwan-temiscamingue"
+    ],
+    [
+      "Pingo Canadian Landmark",
+      "NT",
+      [
+        -133.1184,
+        69.4002
+      ],
+      "https://parks.canada.ca/lhn-nhs/nt/pingo"
+    ],
+    [
+      "Point Clark Lighthouse National Historic Site",
+      "ON",
+      [
+        -81.75729,
+        44.07281
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/clark"
+    ],
+    [
+      "Pointe-au-Père Lighthouse National Historic Site",
+      "QC",
+      [
+        -68.468834,
+        48.517426
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/pointeaupere"
+    ],
+    [
+      "Port au Choix National Historic Site",
+      "NL",
+      [
+        -57.3755555,
+        50.7124999
+      ],
+      "https://parks.canada.ca/lhn-nhs/nl/portauchoix"
+    ],
+    [
+      "Port-Royal National Historic Site",
+      "NS",
+      [
+        -65.609643,
+        44.711673
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/portroyal"
+    ],
+    [
+      "Prince of Wales Fort National Historic Site",
+      "MB",
+      [
+        -94.213579,
+        58.796973
+      ],
+      "https://parks.canada.ca/lhn-nhs/mb/prince"
+    ],
+    [
+      "Prince of Wales Tower National Historic Site",
+      "NS",
+      [
+        -63.569698,
+        44.621483
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/prince"
+    ],
+    [
+      "Province House National Historic Site",
+      "PE",
+      [
+        -63.126083,
+        46.234859
+      ],
+      "https://parks.canada.ca/lhn-nhs/pe/provincehouse"
+    ],
+    [
+      "Queenston Heights National Historic Site",
+      "ON",
+      [
+        -79.052923,
+        43.160074
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/queenston"
+    ],
+    [
+      "Red Bay National Historic Site",
+      "NL",
+      [
+        -56.4156,
+        51.7333
+      ],
+      "https://parks.canada.ca/lhn-nhs/nl/redbay"
+    ],
+    [
+      "Rideau Canal National Historic Site",
+      "ON",
+      [
+        -76.020767,
+        44.897311
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/rideau"
+    ],
+    [
+      "Ridgeway Battlefield National Historic Site",
+      "ON",
+      [
+        -79.041617,
+        42.904083
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/ridgeway"
+    ],
+    [
+      "Riding Mountain Park East Gate Registration Complex National Historic Site",
+      "MB",
+      [
+        -99.555423,
+        50.683271
+      ],
+      "https://parks.canada.ca/lhn-nhs/mb/eastgate"
+    ],
+    [
+      "Riel House National Historic Site",
+      "MB",
+      [
+        -97.136242,
+        49.819232
+      ],
+      "https://parks.canada.ca/lhn-nhs/mb/riel"
+    ],
+    [
+      "Rocky Mountain House National Historic Site",
+      "AB",
+      [
+        -114.970761,
+        52.361379
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/rockymountain"
+    ],
+    [
+      "Rogers Pass National Historic Site",
+      "BC",
+      [
+        -117.521328,
+        51.301457
+      ],
+      "https://parks.canada.ca/lhn-nhs/bc/rogers"
+    ],
+    [
+      "Ryan Premises National Historic Site",
+      "NL",
+      [
+        -53.112995,
+        48.647749
+      ],
+      "https://parks.canada.ca/lhn-nhs/nl/ryan"
+    ],
+    [
+      "S.S. Klondike National Historic Site",
+      "YT",
+      [
+        -135.048121,
+        60.71329
+      ],
+      "https://parks.canada.ca/lhn-nhs/yt/ssklondike"
+    ],
+    [
+      "Saint Croix Island International Historic Site",
+      "NB",
+      [
+        -67.13396,
+        45.12891
+      ],
+      "https://parks.canada.ca/lhn-nhs/nb/stcroix"
+    ],
+    [
+      "Saint-Louis Forts and Châteaux National Historic Site",
+      "QC",
+      [
+        -71.2042,
+        46.812733
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/saintlouisforts"
+    ],
+    [
+      "Saint-Louis Mission National Historic Site",
+      "ON",
+      [
+        -79.78131,
+        44.729048
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/saintlouis"
+    ],
+    [
+      "Saint-Ours Canal National Historic Site",
+      "QC",
+      [
+        -73.146605,
+        45.864729
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/saintours"
+    ],
+    [
+      "Sainte-Anne-de-Bellevue Canal National Historic Site",
+      "QC",
+      [
+        -73.955921,
+        45.404591
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/annedebellevue"
+    ],
+    [
+      "Saoyú-ʔehdacho National Historic Site",
+      "NT",
+      [
+        -123.4225,
+        65.18889
+      ],
+      "https://parks.canada.ca/lhn-nhs/nt/saoyuehdacho"
+    ],
+    [
+      "Sault Ste. Marie Canal National Historic Site",
+      "ON",
+      [
+        -84.349479,
+        46.513007
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/ssmarie"
+    ],
+    [
+      "Signal Hill National Historic Site",
+      "NL",
+      [
+        -52.681893,
+        47.570063
+      ],
+      "https://parks.canada.ca/lhn-nhs/nl/signalhill"
+    ],
+    [
+      "Sir George-Étienne Cartier National Historic Site",
+      "QC",
+      [
+        -73.551741,
+        45.511192
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/etiennecartier"
+    ],
+    [
+      "Sir John Johnson House National Historic Site",
+      "ON",
+      [
+        -74.578778,
+        45.145
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/johnjohnson"
+    ],
+    [
+      "Sir Wilfrid Laurier National Historic Site",
+      "QC",
+      [
+        -73.757696,
+        45.852497
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/wilfridlaurier"
+    ],
+    [
+      "Skmaqn–Port-la-Joye–Fort Amherst National Historic Site",
+      "PE",
+      [
+        -63.135676,
+        46.195395
+      ],
+      "https://parks.canada.ca/lhn-nhs/pe/skmaqn"
+    ],
+    [
+      "Southwold Earthworks National Historic Site",
+      "ON",
+      [
+        -81.360467,
+        42.674217
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/southwold"
+    ],
+    [
+      "St. Andrew's Blockhouse National Historic Site",
+      "NB",
+      [
+        -67.061998,
+        45.077073
+      ],
+      "https://parks.canada.ca/lhn-nhs/nb/standrews"
+    ],
+    [
+      "St. Andrew's Rectory National Historic Site",
+      "MB",
+      [
+        -96.977874,
+        50.066484
+      ],
+      "https://parks.canada.ca/lhn-nhs/mb/standrews"
+    ],
+    [
+      "St. Peters Canal National Historic Site",
+      "NS",
+      [
+        -60.870755,
+        45.652382
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/stpeters"
+    ],
+    [
+      "The Forks National Historic Site",
+      "MB",
+      [
+        -97.127171,
+        49.888183
+      ],
+      "https://parks.canada.ca/lhn-nhs/mb/forks"
+    ],
+    [
+      "The Fur Trade at Lachine National Historic Site",
+      "QC",
+      [
+        -73.675812,
+        45.431429
+      ],
+      "https://parks.canada.ca/lhn-nhs/qc/lachine"
+    ],
+    [
+      "Trent-Severn Waterway National Historic Site",
+      "ON",
+      [
+        -78.54465,
+        44.53815
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/trentsevern"
+    ],
+    [
+      "Twin Falls Tea House National Historic Site",
+      "BC",
+      [
+        -116.531683,
+        51.544124
+      ],
+      "https://parks.canada.ca/pn-np/bc/yoho/culture/twin"
+    ],
+    [
+      "Waterloo Pioneers Memorial Tower",
+      "ON",
+      [
+        -80.41632,
+        43.4002
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/woodside/culture/waterloo"
+    ],
+    [
+      "Woodside National Historic Site",
+      "ON",
+      [
+        -80.480833,
+        43.46367
+      ],
+      "https://parks.canada.ca/lhn-nhs/on/woodside"
+    ],
+    [
+      "Wrecks of HMS Erebus and HMS Terror National Historic Site",
+      "NU",
+      [
+        -98.861868629004,
+        68.254152747625
+      ],
+      "https://parks.canada.ca/lhn-nhs/nu/epaveswrecks"
+    ],
+    [
+      "Yellowhead Pass National Historic Site",
+      "AB",
+      [
+        -118.4515825,
+        52.8818422
+      ],
+      "https://parks.canada.ca/lhn-nhs/ab/yellowhead"
+    ],
+    [
+      "York Factory National Historic Site",
+      "MB",
+      [
+        -92.30474,
+        57.002805
+      ],
+      "https://parks.canada.ca/lhn-nhs/mb/yorkfactory"
+    ],
+    [
+      "York Redoubt National Historic Site",
+      "NS",
+      [
+        -63.553214,
+        44.596822
+      ],
+      "https://parks.canada.ca/lhn-nhs/ns/york"
+    ]
+  ]
+}
