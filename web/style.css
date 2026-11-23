@@ -161,3 +161,7 @@ dd { margin: 0 0 6px; }
   .nearby-layout { grid-template-columns: minmax(0, 1fr); }
   #nearby-map { max-width: 350px; }
 }
+
+/* Long nearby presets must shrink with their flex item on narrow screens. */
+.nearby-form > label { min-width: 0; max-width: 100%; }
+.nearby-form select { max-width: 100%; }

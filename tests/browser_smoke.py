@@ -35,7 +35,7 @@ def main():
                 expect(page.locator('#records article').first).to_be_visible()
                 for width,height in [(1280,900),(390,844),(320,700)]:
                     page.set_viewport_size({'width':width,'height':height})
-                    assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth'), f'horizontal overflow at {width}px'
+                    assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth'), f'horizontal overflow at {width}px: ' + str(page.evaluate("[...document.querySelectorAll('body *')].filter(el => el.getBoundingClientRect().right > innerWidth + 1).map(el => [el.tagName,el.id,el.className,Math.round(el.getBoundingClientRect().width)]).slice(0,20)"))
                 assert not errors,errors
                 assert not failed,failed
                 browser.close()
