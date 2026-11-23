@@ -1,0 +1,24 @@
+{
+  "id": "forgottenplaces",
+  "title": "Forgotten Places",
+  "description": "Explore sites in Canada’s historic places register.",
+  "category": "places",
+  "tags": [
+    "heritage",
+    "ghost",
+    "towns",
+    "military",
+    "abandoned",
+    "atlases"
+  ],
+  "icon": "brick-wall",
+  "url": "/forgottenplaces/",
+  "source": "https://github.com/jsdyer/forgottenplaces",
+  "hosting": "project",
+  "access": "browser",
+  "data_info": {
+    "mode": "snapshot",
+    "detail": "Parks Canada’s register supplies the records of federally designated heritage places.",
+    "cadence": "Weekly"
+  }
+}

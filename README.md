@@ -1,5 +1,9 @@
 # Forgotten Places
 
+<!-- coolcode:guide -->
+Search a locality or choose a theme, then open the original designation and its historical description. Theme matches describe archive wording and do not establish current abandonment, access permission or a site’s physical condition.
+<!-- /coolcode:guide -->
+
 A browser-only CoolCode atlas of federal historic places drawn from the Canadian Register of Historic Places. Explore the country by province or territory, narrow by locality and designation, search English and French place names, or start with a theme such as defence installations, mills and mines, or historic settlements. Open a record for its description, heritage value, character-defining elements, and original government links.
 
 The **atlas uses the federal-designation extract**, not a complete list of Canadian heritage sites. The map groups records by their province or territory. The workbook has no coordinates, so the map shows regional distributions and never guesses an individual site's location. A record's map-search link uses the address or locality reported by the register.
@@ -18,7 +22,7 @@ Open [http://127.0.0.1:8080](http://127.0.0.1:8080). Use `--input /path/to/crhp.
 
 ## Deploy and refresh
 
-GitHub Actions reads the Open Government catalogue, downloads the official XLSX, and builds and deploys `dist/` to GitHub Pages. The workflow supports daily refreshes and manual runs. A failed download or invalid workbook fails the build before deployment, preserving the previous published site. The built site's Source notes show the extract date, resource update, build date, and record count. `data/manifest.json` also records the exact source URL and SHA-256.
+GitHub Actions reads the Open Government catalogue, downloads the official XLSX, and builds and deploys `dist/` to GitHub Pages. The workflow supports weekly refreshes and manual runs. A failed download or invalid workbook fails the build before deployment, preserving the previous published site. The built site's Source notes show the extract date, resource update, build date, and record count. `data/manifest.json` also records the exact source URL and SHA-256.
 
 Use **Settings → Pages → GitHub Actions** as the publishing source. The project inherits the custom domain of `jsdyer/jsdyer.github.io` and uses relative assets under [coolcode.ca/forgottenplaces/](https://coolcode.ca/forgottenplaces/).
 
@@ -37,3 +41,18 @@ Use **Settings → Pages → GitHub Actions** as the publishing source. The proj
 The register workbook lacks coordinates. The builder matches unique National Historic Site names and provinces with the published [National historic sites map](https://parks.canada.ca/lhn-nhs?wbdisable=true) from Parks Canada. The match strips the common designation suffix and normalizes punctuation and accents. Ambiguous names and unmatched sites stay in the main register without entering the radius index. The tested snapshot matches 126 of 2,527 entries. The coordinate data in `scripts/parks-map-points.json` is copied from the Parks Canada map and follows the site's [terms](https://parks.canada.ca/termes-terms). To review and refresh that source copy, run `python3 scripts/nearby.py`.
 
 The radius explorer also reads the compact, same-origin index published by Shipwreck Explorer. Provincial wreck positions are approximate and have separate source attribution. Serve both built sites at `/forgottenplaces/` and `/shipwrecks/` for end-to-end local testing.
+
+## Regression checks
+
+Pull requests that change code run logic tests and Chromium checks at this tool’s
+Pages subpath, including a real control interaction and 320/390-pixel layouts.
+Documentation-only pull requests skip this workflow. Publication waits for the
+same checks. Test data stays in a separate job and is never packaged for Pages.
+
+```sh
+python3 -m unittest discover -s tests -v
+python3 tests/build_fixture.py
+python3 -m pip install -r tests/browser-requirements.txt
+python3 -m playwright install chromium
+python3 tests/browser_smoke.py
+```
