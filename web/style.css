@@ -118,8 +118,7 @@ dd { margin: 0 0 6px; }
 }
 @media (max-width: 730px) {
   .wrap { width: calc(100% - 28px); }
-  .hero-inner, .results-grid { grid-template-columns: 1fr; gap: 16px; }
-  .hero h1 br { display: none; }
+  .hero-inner, .results-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
   .hero h1 { font-size: clamp(3rem, 10vw, 5rem); }
   .hero-copy > p:not(.eyebrow) { max-width: 58ch; margin-bottom: 12px; }
   #map { max-height: 240px; }
@@ -161,7 +160,3 @@ dd { margin: 0 0 6px; }
   .nearby-layout { grid-template-columns: minmax(0, 1fr); }
   #nearby-map { max-width: 350px; }
 }
-
-/* Long nearby presets must shrink with their flex item on narrow screens. */
-.nearby-form > label { min-width: 0; max-width: 100%; }
-.nearby-form select { max-width: 100%; }
