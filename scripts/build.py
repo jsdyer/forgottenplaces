@@ -19,6 +19,8 @@ from openpyxl import load_workbook
 from nearby import write_nearby
 
 
+from search_metadata import add_search_metadata
+
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = "e9385d68-ce65-46fa-a9fc-1b1f377f3f5d"
 RESOURCE = "7e691189-5c74-4fb4-866c-5389d5abfa48"
@@ -230,6 +232,9 @@ def build(path, provenance, output):
             "designations": sorted({r["designation"] for r in records if r["designation"]}),
         }
         (data / "manifest.json").write_text(json.dumps(metadata, ensure_ascii=False), encoding="utf8")
+        index = staging / "index.html"
+        tool = json.loads((ROOT / "tool.json").read_text())
+        index.write_text(add_search_metadata(index.read_text(), tool, category="ReferenceApplication"), encoding="utf-8")
         # Preserve the previous build until the complete replacement is ready.
         previous = staging.parent / "previous"
         if output.exists():
